@@ -1,0 +1,19 @@
+i{
+    font-style: normal !important;
+}
+
+.my-category-link:hover{
+    color: #fe980f !important;
+}
+
+.my-orange-color{
+    color: #fe980f;
+}
+
+.my-grey-color{
+    color: #696763;
+}
+
+.my-title-no-goods{
+    margin-top: 50px;
+}
