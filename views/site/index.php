@@ -36,6 +36,7 @@
                                     <h2>$<?= (float)$product['price']; ?></h2>
                                     <p>
                                         <a href="/product/<?= (int)$product['id']; ?>">
+                                            ID: <?= (int)$product['id']; ?>
                                             <?= htmlentities($product['name']); ?>
                                         </a>
                                     </p>
@@ -44,7 +45,7 @@
                                     </a>
                                 </div>
                                 <?php if ($product['is_new']) : ?>
-                                <img src="/template/images/home/new.png" class="new" alt="" />
+                                <img src="/template/images/home/new.png" class="new" alt="new">
                                 <?php endif; ?>
                             </div>
                         </div>

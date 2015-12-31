@@ -36,6 +36,7 @@
                                         <h2>$<?= (float)$product['price']; ?></h2>
                                         <p>
                                             <a href="/product/<?= (int)$product['id']; ?>">
+                                                ID: <?= (int)$product['id']; ?>
                                                 <?= htmlentities($product['name']); ?>
                                             </a>
                                         </p>
@@ -51,6 +52,9 @@
                         </div>
                     <?php endforeach; ?>
                 </div><!--features_items-->
+                <div class="my-pagination">
+                    <?php if (isset($pagination)) {echo $pagination->get();}?>
+                </div>
             </div>
         </div>
     </div>

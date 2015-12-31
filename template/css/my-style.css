@@ -10,10 +10,62 @@ i{
     color: #fe980f;
 }
 
+.my-red-color{
+    color: #d00;
+}
+
 .my-grey-color{
     color: #696763;
 }
 
 .my-title-no-goods{
     margin-top: 50px;
+}
+
+.cart{
+    margin: 0;
+}
+
+.my-product-price, .my-product-amount, .my-product-quantity{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe980f !important;
+}
+
+.cart{
+    -webkit-transition: background 300ms, color 300ms;
+    transition: background 300ms, color 300ms;
+}
+
+.my-pagination{
+    text-align:center;
+    margin: 20px 0;
+}
+
+.my-form :focus::-moz-placeholder{
+    color: transparent;
+}
+
+.my-form :focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+.my-form input[type="checkbox"]{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    height: 10px;
+    width : 10px;
+}
+
+.my-form label{
+    display: inline-block;
+    margin: 10px 0 30px;
+}
+
+.my-ul{
+    padding: 0;
+}
+
+.my-cabinet-ul li a:hover{
+    text-decoration: underline;
 }
