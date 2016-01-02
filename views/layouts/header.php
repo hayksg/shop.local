@@ -61,7 +61,12 @@
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
+                            <li>
+                                <a href="/cart">
+                                    <i class="fa fa-shopping-cart"></i> Корзина
+                                    [ <strong class="my-orange-color my-cart"><?= (int)Cart::countProductsInCart(); ?></strong> ]
+                                </a>
+                            </li>
                             <?php if (User::isUser()) : ?>
                             <li><a href="/cabinet"><i class="fa fa-user"></i> Аккаунт</a></li>
                             <li><a href="/user/logout"><i class="fa fa-unlock"></i> Выход</a></li>

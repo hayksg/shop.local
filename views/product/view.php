@@ -45,17 +45,23 @@
                                 <p><b>Цена:</b> US $<i class="my-product-price"> 59</i></p>
                                 <span>
                                     <label>Количество:</label>
-                                    <input type="text" class="my-product-quantity" value="3" />
+                                    <input type="text"
+                                           class="my-product-quantity"
+                                           value="<?= Cart::countProductInCart($product['id']); ?>"
+                                    >
                                 </span>
                                 <br>
                                 <br>
-                                <p><b>Общая сумма:</b> US $<i class="my-product-amount"> 0</i></p>
+                                <p><b>Общая сумма:</b> US $ <i class="my-product-amount"> 0</i></p>
                                 <p><b>Наличие:</b> На складе</p>
                                 <p><b>Состояние:</b> Новое</p>
                                 <p><b>Производитель:</b> <?= htmlentities($product['brand']); ?></p>
                                 <br>
                                 <br>
-                                <button type="button" class="btn btn-fefault cart">
+                                <button type="button"
+                                        class="btn btn-fefault cart add-to-cart"
+                                        data-id="<?= (int)$product['id']; ?>"
+                                >
                                     <i class="fa fa-shopping-cart"></i>
                                     В корзину
                                 </button>

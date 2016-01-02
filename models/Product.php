@@ -129,4 +129,30 @@ class Product
             return ($row) ? $row['count'] : 0;
         }
     }
+
+    public static function getProductsByIds($productsIdsArray)
+    {
+        if (is_array($productsIdsArray) && !empty($productsIdsArray)) {
+            $productsIdsString = implode(',', $productsIdsArray);
+
+            $db = DB::getConnection();
+            if ($db) {
+                $sql  = "SELECT id, name, code, price ";
+                $sql .= "FROM product ";
+                $sql .= "WHERE id ";
+                $sql .= "IN({$productsIdsString}) ";
+                $sql .= "ORDER BY id ASC";
+
+                if (!$result = $db->query($sql)) {
+                    return false;
+                }
+
+                $products = array();
+                while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                    $products[] = $row;
+                }
+                return $products;
+            }
+        }
+    }
 }

@@ -40,7 +40,10 @@
                                             <?= htmlentities($product['name']); ?>
                                         </a>
                                     </p>
-                                    <a href="#" class="btn btn-default add-to-cart">
+                                    <a href="#"
+                                       class="btn btn-default add-to-cart"
+                                       data-id="<?= (int)$product['id']; ?>"
+                                    >
                                         <i class="fa fa-shopping-cart"></i>В корзину
                                     </a>
                                 </div>

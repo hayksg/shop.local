@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="col-sm-9 padding-right">
-                <div class="features_items"><!--features_items-->
+                <div class="features_items">
                     <h2 class="title text-center">Последние товары</h2>
                     <?php foreach ($products as $product) : ?>
                         <div class="col-sm-4">
@@ -40,7 +40,10 @@
                                                 <?= htmlentities($product['name']); ?>
                                             </a>
                                         </p>
-                                        <a href="#" class="btn btn-default add-to-cart">
+                                        <a href="#"
+                                           class="btn btn-default add-to-cart"
+                                           data-id="<?= (int)$product['id']; ?>"
+                                        >
                                             <i class="fa fa-shopping-cart"></i>В корзину
                                         </a>
                                     </div>
@@ -51,7 +54,7 @@
                             </div>
                         </div>
                     <?php endforeach; ?>
-                </div><!--features_items-->
+                </div>
                 <div class="my-pagination">
                     <?php if (isset($pagination)) {echo $pagination->get();}?>
                 </div>

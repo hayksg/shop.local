@@ -12,6 +12,16 @@ class User
         return (filter_var($email, FILTER_VALIDATE_EMAIL)) ? true : false;
     }
 
+    public static function checkPhone($phone)
+    {
+        $pattern = "/^\(?\+{1}[0-9]+\)?([0-9 -]+)$/";
+        if (preg_match($pattern, $phone)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public static function checkPassword($password)
     {
         return (strlen($password) > 5) ? true : false;
@@ -66,7 +76,7 @@ class User
     {
         $db = DB::getConnection();
         if ($db) {
-            $sql  = "SELECT id, name, email, password ";
+            $sql  = "SELECT id, name, email, password, role ";
             $sql .= "FROM user ";
             $sql .= "WHERE email = :email ";
             $sql .= "LIMIT 1";

@@ -1,6 +1,6 @@
 i{
-    font-style: normal !important;
-}
+     font-style: normal !important;
+ }
 
 .my-category-link:hover{
     color: #fe980f !important;
@@ -46,6 +46,16 @@ i{
     color: transparent;
 }
 
+.my-form ::-webkit-input-placeholder{
+    color: #555;
+    font-weight: normal;
+}
+
+.my-form ::-moz-placeholder{
+    color: #555;
+    font-weight: normal;
+}
+
 .my-form :focus::-webkit-input-placeholder{
     color: transparent;
 }
@@ -62,10 +72,36 @@ i{
     margin: 10px 0 30px;
 }
 
+.my-form textarea{
+    padding: 0.7em;
+    margin: 0 0 10px;
+    height: 250px;
+}
+
 .my-ul{
     padding: 0;
 }
 
 .my-cabinet-ul li a:hover{
+    text-decoration: underline;
+}
+
+.my-right-box{
+    padding: 0 15px;
+}
+
+.my-table-products tr th+th+th{
+    width: 100px;
+}
+
+.my-table-products tr th+th+th+th{
+    width: 130px;
+}
+
+.my-table-products tr th+th+th+th+th{
+    width: 110px;
+}
+
+.my-ul-underline li a:hover{
     text-decoration: underline;
 }

@@ -17,7 +17,7 @@
                     <form action="/user/login" method="post" class="my-form">
                         <input type="email" name="email" value="<?= htmlentities($email); ?>" placeholder="Email">
                         <input type="password" name="password" placeholder="Пароль">
-                        <label>
+                        <label class="my-grey-color">
                             <input type="checkbox" name="remember" value="true"> Запомнить меня
                         </label>
                         <button type="submit" name="submit" class="btn btn-default cart">Зарегистрировать</button>
