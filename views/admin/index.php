@@ -1,4 +1,4 @@
-<?php include(ROOT . '/views/layouts/admin_header.php'); ?>
+<?php include(ROOT . '/views/layouts/admin-header.php'); ?>
 
 <section>
     <div class="container">

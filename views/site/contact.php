@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2">
                         <?php if ($result) : ?>
-                            <h3 class="my-orange-color text-center">Письма отправлено!</h3>
+                            <h4 class="my-orange-color text-center">Письма отправлено!</h4>
                         <?php else : ?>
                             <div class="signup-form">
                                 <h5 class="my-grey-color">Для того чтобы отправить нам сообщение заполните пожалуйста форму</h5><br>

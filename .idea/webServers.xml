@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="32a32b3e-7966-4626-b5bf-5b13822c583f" name="shop.local" url="http://31.170.165.239">
+        <fileTransfer host="31.170.165.239" port="21" password="dfefdfcedfcddfcbdfd8df98df9adf9bdf9a" username="u704804730">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

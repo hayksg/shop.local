@@ -39,7 +39,7 @@ class FunctionLibrary
     public static function buildPagination($total, $count, $page, $index)
     {
         $permissible = ceil($total / $count);
-        if ($total > $page) {
+        if ($total > $count) {
             if ($page != 0 && $page <= $permissible) {
                 return new Pagination($total, $page, $count, $index);
             } else {

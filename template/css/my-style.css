@@ -76,6 +76,16 @@ i{
     padding: 0.7em;
     margin: 0 0 10px;
     height: 250px;
+    color: #333;
+    font-weight: normal;
+}
+
+.my-form select{
+    padding: 0 8px;
+}
+
+.my-form select option{
+    padding: 6px 11px;
 }
 
 .my-ul{
@@ -104,4 +114,25 @@ i{
 
 .my-ul-underline li a:hover{
     text-decoration: underline;
+}
+
+.my-table-admin-goods tr th:first-child{
+    width: 100px;
+}
+
+.my-table-admin-goods tr th+th+th+th+th{
+    width: 110px;
+}
+
+.my-table-admin-goods tr th+th+th+th+th+th{
+    width: 80px;
+}
+
+.my-form-delete-product{
+    display: inline-block;
+    margin: 0 100px 0 0;
+}
+
+.my-table-admin tr th+th{
+    width: 100px;
 }

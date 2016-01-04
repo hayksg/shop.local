@@ -168,4 +168,63 @@ class User
         }
     }
 
+    public static function getAdminUsers()
+    {
+        $db = DB::getConnection();
+        if ($db) {
+            $sql  = "SELECT id, name ";
+            $sql .= "FROM user ";
+            $sql .= "WHERE role = 'admin' ";
+            $sql .= "ORDER BY id ASC";
+
+            if (!$result = $db->query($sql)) {
+                return false;
+            }
+
+            $admins = array();
+            while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                $admins[] = $row;
+            }
+            return $admins;
+        }
+    }
+
+    public static function registerAdmin($name, $email, $password)
+    {
+        $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+
+        $db = DB::getConnection();
+        if ($db) {
+            $sql  = "INSERT INTO user(";
+            $sql .= "name, email, password, role";
+            $sql .= ") VALUES(";
+            $sql .= "?, ?, ?, 'admin'";
+            $sql .= ")";
+
+            $stmt = $db->prepare($sql);
+            $stmt->bindParam(1, $name, PDO::PARAM_STR);
+            $stmt->bindParam(2, $email, PDO::PARAM_STR);
+            $stmt->bindParam(3, $passwordHash, PDO::PARAM_STR);
+
+            return $stmt->execute();
+        }
+    }
+
+    public static function deleteAdmin($id)
+    {
+        $id = intval($id);
+        if ($id) {
+            $db = DB::getConnection();
+            if ($db) {
+                $sql  = "DELETE FROM user ";
+                $sql .= "WHERE id = :id ";
+                $sql .= "AND role = 'admin' ";
+                $sql .= "LIMIT 1";
+
+                $stmt = $db->prepare($sql);
+                $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+                return $stmt->execute();
+            }
+        }
+    }
 }

@@ -42,7 +42,7 @@
                                 <?php endif; ?>
                                 <h2><?= htmlentities($product['name']); ?></h2>
                                 <p>Код товара: <?= (int)$product['code']; ?></p>
-                                <p><b>Цена:</b> US $<i class="my-product-price"> 59</i></p>
+                                <p><b>Цена:</b> US $<i class="my-product-price"> <?= (float)$product['price']; ?></i></p>
                                 <span>
                                     <label>Количество:</label>
                                     <input type="text"
@@ -59,7 +59,7 @@
                                 <br>
                                 <br>
                                 <button type="button"
-                                        class="btn btn-fefault cart add-to-cart"
+                                        class="btn btn-default cart add-to-cart"
                                         data-id="<?= (int)$product['id']; ?>"
                                 >
                                     <i class="fa fa-shopping-cart"></i>

@@ -2,13 +2,15 @@
 
 class Category
 {
-    public static function getCategoriesList()
+    public static function getCategoriesList($status = true)
     {
         $db = DB::getConnection();
         if ($db) {
             $sql  = "SELECT id, name ";
             $sql .= "FROM category ";
-            $sql .= "WHERE status = 1 ";
+            if ($status) {
+                $sql .= "WHERE status = 1 ";
+            }
             $sql .= "ORDER BY sort_order ASC";
 
             if (!$result = $db->query($sql)) {

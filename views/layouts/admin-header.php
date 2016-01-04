@@ -14,6 +14,7 @@
     <link href="/template/css/main.css" rel="stylesheet">
     <link href="/template/css/responsive.css" rel="stylesheet">
     <link href="/template/css/my-style.css" rel="stylesheet">
+    <link href="/template/css/jquery-filestyle.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="/template/js/html5shiv.js"></script>
     <script src="/template/js/respond.min.js"></script>
@@ -36,6 +37,7 @@
             <div class="col-sm-6">
                 <div class="pull-right"><a href="/"><i class="fa fa-sign-out"></i> На сайт</a></div>
             </div>
+            <br>
             <br>
             <br>
         </div>
