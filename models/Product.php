@@ -253,4 +253,41 @@ class Product
             return $stmt->execute();
         }
     }
+
+    public static function updateProductById($id, $options)
+    {
+        if (is_array($options) && !empty($options)) {
+            $db = DB::getConnection();
+            if ($db) {
+                $sql  = "UPDATE product SET ";
+                $sql .= "name = :name,
+                         category_id = :categoryId,
+                         code = :code,
+                         price = :price,
+                         availability = :availability,
+                         brand = :brand,
+                         description = :description,
+                         is_new = :is_new,
+                         is_recommended = :is_recommended,
+                         status = :status ";
+                $sql .= "WHERE id = :id ";
+                $sql .= "LIMIT 1";
+
+                $stmt = $db->prepare($sql);
+                $stmt->bindParam(':name',           $options['name'],           PDO::PARAM_STR);
+                $stmt->bindParam(':categoryId',     $options['category_id'],    PDO::PARAM_INT);
+                $stmt->bindParam(':code',           $options['code'],           PDO::PARAM_INT);
+                $stmt->bindParam(':price',          $options['price'],          PDO::PARAM_STR);
+                $stmt->bindParam(':availability',   $options['availability'],   PDO::PARAM_INT);
+                $stmt->bindParam(':brand',          $options['brand'],          PDO::PARAM_STR);
+                $stmt->bindParam(':description',    $options['description'],    PDO::PARAM_STR);
+                $stmt->bindParam(':is_new',         $options['is_new'],         PDO::PARAM_INT);
+                $stmt->bindParam(':is_recommended', $options['is_recommended'], PDO::PARAM_INT);
+                $stmt->bindParam(':status',         $options['status'],         PDO::PARAM_INT);
+                $stmt->bindParam(':id',             $id,                        PDO::PARAM_INT);
+
+                return ($stmt->execute());
+            }
+        }
+    }
 }

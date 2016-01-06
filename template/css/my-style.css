@@ -125,6 +125,10 @@ i{
 }
 
 .my-table-admin-goods tr th+th+th+th+th+th{
+    width: 124px;
+}
+
+.my-table-admin-goods tr th+th+th+th+th+th+th{
     width: 80px;
 }
 

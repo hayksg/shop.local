@@ -1,4 +1,5 @@
 $(function(){
+
     var len = $('.my-image').length;
 
     for (var i = 0; i < len; i++) {
@@ -6,6 +7,7 @@ $(function(){
             $('.my-image').eq(i).attr('src', '/template/images/home/no-image.jpg');
         }
     }
+
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 

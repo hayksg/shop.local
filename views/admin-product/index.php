@@ -23,6 +23,7 @@
                             <th>Название</th>
                             <th>Цена US $</th>
                             <th>Изображение</th>
+                            <th>Редактировать</th>
                             <th>Удалить</th>
                         </tr>
                         <?php foreach ($products as $product) : ?>
@@ -37,6 +38,11 @@
                                          height="50"
                                          alt="image"
                                     >
+                                </td>
+                                <td>
+                                    <a href="/admin/product/update/<?= (int)$product['id']; ?>">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
                                 </td>
                                 <td>
                                     <a href="/admin/product/delete/<?= (int)$product['id']; ?>">
