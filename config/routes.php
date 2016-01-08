@@ -24,12 +24,22 @@ return array(
     'admin/user/create' => 'adminUser/create', // actionCreate in AdminUserController
     'admin/user/delete/([0-9]+)' => 'adminUser/delete/$1', // actionDelete in AdminUserController
     'admin/user' => 'adminUser/index', // actionIndex in AdminUserController
+    /* Управление заказами */
+    'admin/order/create' => 'adminOrder/create', // actionCreate in AdminOrderController
+    'admin/order/update/([0-9]+)' => 'adminOrder/update/$1', // actionUpdate in AdminOrderController
+    'admin/order/delete/([0-9]+)' => 'adminOrder/delete/$1', // actionDelete in AdminOrderController
+    'admin/order' => 'adminOrder/index', // actionIndex in AdminOrderController
     /* Управление товарами */
     'admin/product/create' => 'adminProduct/create', // actionCreate in AdminProductController
     'admin/product/update/([0-9]+)' => 'adminProduct/update/$1', // actionUpdate in AdminProductController
     'admin/product/delete/([0-9]+)' => 'adminProduct/delete/$1', // actionDelete in AdminProductController
     'admin/product/page-([0-9]+)' => 'adminProduct/index/$1', // actionIndex in AdminProductController
     'admin/product' => 'adminProduct/index', // actionIndex in AdminProductController
+    /* Управление категориями */
+    'admin/category/create' => 'adminCategory/create', // actionCreate in AdminCategoryController
+    'admin/category/update/([0-9]+)' => 'adminCategory/update/$1', // actionUpdate in AdminCategoryController
+    'admin/category/delete/([0-9]+)' => 'adminCategory/delete/$1', // actionDelete in AdminCategoryController
+    'admin/category' => 'adminCategory/index', // actionIndex in AdminCategoryController
     /* Администраторская часть */
     'admin' => 'admin/index', // actionIndex in AdminController
     /* Главная страница */

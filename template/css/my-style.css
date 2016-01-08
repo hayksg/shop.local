@@ -140,3 +140,9 @@ i{
 .my-table-admin tr th+th{
     width: 100px;
 }
+
+.my-button-delete-category{
+    background: none;
+    border: none;
+    color: #428bca;
+}

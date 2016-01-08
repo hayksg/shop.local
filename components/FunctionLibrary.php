@@ -87,4 +87,18 @@ class FunctionLibrary
 
         return $decrypted;
     }
+
+    public static function showErrors($errors)
+    {
+        if (!empty($errors)) {
+            $result = '<ul class="my-ul">';
+                foreach ($errors as $error) {
+                    $result .= '<li class="my-red-color">';
+                    $result .= htmlentities($error);
+                    $result .= '</li>';
+                }
+            $result .= '</ul><br>';
+            return $result;
+        }
+    }
 }
