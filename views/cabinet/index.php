@@ -11,7 +11,7 @@
                 <br>
                 <ul class="my-ul my-cabinet-ul">
                     <li><a href="/cabinet/edit">Редактировать данные</a></li>
-                    <li><a href="/cabinet/history">Список покупок</a></li>
+                    <li><a href="/cabinet/history/<?= (int)$user['id']; ?>">Список покупок</a></li>
                 </ul>
             </div>
         </div>

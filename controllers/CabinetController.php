@@ -42,4 +42,12 @@ class CabinetController
         require_once(ROOT . '/views/cabinet/edit.php');
         return true;
     }
+
+    public function actionHistory($id)
+    {
+        $orders = Order::getOrdersById($id);
+
+        require_once(ROOT . '/views/cabinet/history.php');
+        return true;
+    }
 }

@@ -41,7 +41,7 @@
                                     <form action="/admin/category/delete/<?= (int)$category['id']; ?>" method="post">
                                         <button name="submit"
                                                 type="submit"
-                                                class="my-button-delete-category"
+                                                class="my-button-delete"
                                                 onclick="return confirm('Вы уверены что хотите удалить категорию?');"
                                         >
                                             <i class="fa fa-times"></i>

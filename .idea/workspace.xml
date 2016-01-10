@@ -2,21 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24d4d14-ed75-48b0-8ce8-b32999fa7acc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/AdminCategoryController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/AdminOrderController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-category/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-category/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-category/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-order/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-order/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-order/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-order/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/images/blog/no-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/order-params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/AdminBlogController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/BlogController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-blog/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-blog/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-blog/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin-blog/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/cabinet/history.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/about.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/admin-order/delete.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/images/blog/blog-one.jpg" afterPath="$PROJECT_DIR$/template/images/blog/blog1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/images/blog/blog-three.jpg" afterPath="$PROJECT_DIR$/template/images/blog/blog2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/images/blog/blog-two.jpg" afterPath="$PROJECT_DIR$/template/images/blog/blog3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/admin-order/create.php" afterPath="$PROJECT_DIR$/views/admin-order/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/FunctionLibrary.php" afterPath="$PROJECT_DIR$/components/FunctionLibrary.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Category.php" afterPath="$PROJECT_DIR$/models/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AdminOrderController.php" afterPath="$PROJECT_DIR$/controllers/AdminOrderController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CabinetController.php" afterPath="$PROJECT_DIR$/controllers/CabinetController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SiteController.php" afterPath="$PROJECT_DIR$/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Cart.php" afterPath="$PROJECT_DIR$/models/Cart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Order.php" afterPath="$PROJECT_DIR$/models/Order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Product.php" afterPath="$PROJECT_DIR$/models/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css/my-style.css" afterPath="$PROJECT_DIR$/template/css/my-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin-user/create.php" afterPath="$PROJECT_DIR$/views/admin-user/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin-category/index.php" afterPath="$PROJECT_DIR$/views/admin-category/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin-order/index.php" afterPath="$PROJECT_DIR$/views/admin-order/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin-order/update.php" afterPath="$PROJECT_DIR$/views/admin-order/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/index.php" afterPath="$PROJECT_DIR$/views/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/cabinet/index.php" afterPath="$PROJECT_DIR$/views/cabinet/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/cart/index.php" afterPath="$PROJECT_DIR$/views/cart/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/cart/order.php" afterPath="$PROJECT_DIR$/views/cart/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/site/index.php" afterPath="$PROJECT_DIR$/views/site/index.php" />
     </list>
     <ignored path="shop.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,107 +59,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminCategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/AdminCategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="81" />
-              <folding />
-            </state>
+      <file leaf-file-name="no-image.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/no-image.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
+      <file leaf-file-name="man-two.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/man-two.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin-user/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-              <folding />
-            </state>
+      <file leaf-file-name="blog3.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/blog3.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/css/my-style.css">
+      <file leaf-file-name="Blog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="147" column="1" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin-user/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/js/my-script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82234186">
-              <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+            <state vertical-scroll-proportion="-16.32258">
+              <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
               <folding>
-                <marker date="1452271478160" expanded="true" signature="1159:1179" placeholder="DELETE FROM " />
-                <marker date="1452271478160" expanded="true" signature="2045:2066" placeholder="INSERT INTO category... " />
-                <marker date="1452271478160" expanded="true" signature="3290:3309" placeholder="UPDATE categ... " />
+                <marker date="1452450018179" expanded="true" signature="1458:1475" placeholder="INSERT INTO blog... " />
+                <marker date="1452450018179" expanded="true" signature="2079:2094" placeholder="UPDATE blog " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin-category/update.php">
+      <file leaf-file-name="AdminBlogController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/AdminBlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state vertical-scroll-proportion="-22.838709">
+              <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin-category/index.php">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/admin-blog/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.23687753">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin-category/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding />
-            </state>
+      <file leaf-file-name="man-three.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/man-three.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-one.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/man-one.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-four.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/blog/man-four.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/images/404/404.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -158,57 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/catalog/category.php" />
-        <option value="$PROJECT_DIR$/views/catalog/index.php" />
-        <option value="$PROJECT_DIR$/models/Cart.php" />
-        <option value="$PROJECT_DIR$/models/Order.php" />
-        <option value="$PROJECT_DIR$/views/cart/order.php" />
-        <option value="$PROJECT_DIR$/controllers/CartController.php" />
-        <option value="$PROJECT_DIR$/views/user/login.php" />
-        <option value="$PROJECT_DIR$/components/AdminBase.php" />
-        <option value="$PROJECT_DIR$/controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/views/layouts/admin_header.php" />
-        <option value="$PROJECT_DIR$/views/admin/index.php" />
-        <option value="$PROJECT_DIR$/controllers/CatalogController.php" />
-        <option value="$PROJECT_DIR$/views/site/contact.php" />
-        <option value="$PROJECT_DIR$/template/js/jquery.cycle2.min.js" />
-        <option value="$PROJECT_DIR$/template/js/jquery.cycle2.carousel.min.js" />
-        <option value="$PROJECT_DIR$/views/site/index.php" />
-        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/template/css/main.css" />
-        <option value="$PROJECT_DIR$/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/views/layouts/admin-header.php" />
-        <option value="$PROJECT_DIR$/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/template/css/jquery-filestyle.css" />
         <option value="$PROJECT_DIR$/views/admin-product/create.php" />
         <option value="$PROJECT_DIR$/views/admin-product/delete.php" />
         <option value="$PROJECT_DIR$/views/product/view.php" />
-        <option value="$PROJECT_DIR$/views/cart/index.php" />
         <option value="$PROJECT_DIR$/views/admin-user/update.php" />
         <option value="$PROJECT_DIR$/views/admin-user/delete.php" />
-        <option value="$PROJECT_DIR$/controllers/AdminUserController.php" />
         <option value="$PROJECT_DIR$/models/User.php" />
         <option value="$PROJECT_DIR$/views/admin-user/index.php" />
         <option value="$PROJECT_DIR$/views/admin-product/index.php" />
         <option value="$PROJECT_DIR$/views/admin-product/update.php" />
         <option value="$PROJECT_DIR$/template/js/my-script.js" />
-        <option value="$PROJECT_DIR$/models/Product.php" />
         <option value="$PROJECT_DIR$/controllers/AdminProductController.php" />
         <option value="$PROJECT_DIR$/views/admin-category/delete.php" />
-        <option value="$PROJECT_DIR$/config/routes.php" />
-        <option value="$PROJECT_DIR$/views/admin-order/index.php" />
         <option value="$PROJECT_DIR$/views/admin-order/create.php" />
         <option value="$PROJECT_DIR$/views/admin-order/delete.php" />
-        <option value="$PROJECT_DIR$/views/admin-order/update.php" />
-        <option value="$PROJECT_DIR$/controllers/AdminOrderController.php" />
-        <option value="$PROJECT_DIR$/views/admin-category/index.php" />
-        <option value="$PROJECT_DIR$/components/FunctionLibrary.php" />
-        <option value="$PROJECT_DIR$/template/css/my-style.css" />
         <option value="$PROJECT_DIR$/views/admin-user/create.php" />
         <option value="$PROJECT_DIR$/views/admin-category/create.php" />
         <option value="$PROJECT_DIR$/views/admin-category/update.php" />
         <option value="$PROJECT_DIR$/controllers/AdminCategoryController.php" />
         <option value="$PROJECT_DIR$/models/Category.php" />
+        <option value="$PROJECT_DIR$/views/admin-category/index.php" />
+        <option value="$PROJECT_DIR$/views/admin-order/index.php" />
+        <option value="$PROJECT_DIR$/models/Cart.php" />
+        <option value="$PROJECT_DIR$/views/cart/index.php" />
+        <option value="$PROJECT_DIR$/views/cart/order.php" />
+        <option value="$PROJECT_DIR$/views/admin-order/view.php" />
+        <option value="$PROJECT_DIR$/config/order-params.php" />
+        <option value="$PROJECT_DIR$/views/admin-order/update.php" />
+        <option value="$PROJECT_DIR$/controllers/AdminOrderController.php" />
+        <option value="$PROJECT_DIR$/views/cabinet/index.php" />
+        <option value="$PROJECT_DIR$/models/Order.php" />
+        <option value="$PROJECT_DIR$/controllers/CabinetController.php" />
+        <option value="$PROJECT_DIR$/models/Product.php" />
+        <option value="$PROJECT_DIR$/views/cabinet/history.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/views/site/about.php" />
+        <option value="$PROJECT_DIR$/views/site/index.php" />
+        <option value="$PROJECT_DIR$/controllers/BlogController.php" />
+        <option value="$PROJECT_DIR$/components/FunctionLibrary.php" />
+        <option value="$PROJECT_DIR$/views/admin-blog/update.php" />
+        <option value="$PROJECT_DIR$/views/admin-blog/delete.php" />
+        <option value="$PROJECT_DIR$/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/controllers/AdminUserController.php" />
+        <option value="$PROJECT_DIR$/config/routes.php" />
+        <option value="$PROJECT_DIR$/template/css/my-style.css" />
+        <option value="$PROJECT_DIR$/views/admin-blog/index.php" />
+        <option value="$PROJECT_DIR$/views/blog/index.php" />
+        <option value="$PROJECT_DIR$/views/blog/view.php" />
+        <option value="$PROJECT_DIR$/controllers/AdminBlogController.php" />
+        <option value="$PROJECT_DIR$/models/Blog.php" />
+        <option value="$PROJECT_DIR$/views/admin-blog/create.php" />
       </list>
     </option>
   </component>
@@ -224,7 +223,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1604" />
+    <option name="width" value="1616" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -252,7 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,24 +283,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -317,7 +298,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin-user" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,7 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin-order" />
+              <option name="myItemId" value="admin-category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +352,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin-category" />
+              <option name="myItemId" value="admin-blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,25 +366,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,23 +416,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,11 +430,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\shop.local\template\images\blog" />
+      <recent name="C:\xampp\htdocs\shop.local\config" />
       <recent name="C:\xampp\htdocs\shop.local\template\css" />
       <recent name="C:\xampp\htdocs\shop.local\template\js" />
       <recent name="C:\xampp\htdocs\shop.local\template\fonts" />
-      <recent name="C:\xampp\htdocs\shop.local\template" />
-      <recent name="C:\xampp\htdocs\shop.local\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -528,13 +481,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1604" height="886" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17254408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,10 +497,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -567,369 +520,338 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/js/my-script.js">
+    <entry file="file://$PROJECT_DIR$/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/views/site/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.516129">
-          <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.354838">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/js/jquery.cycle2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/js/jquery.cycle2.carousel.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4186" selection-start-line="1" selection-start-column="4186" selection-end-line="1" selection-end-column="4186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.774193">
-          <caret line="582" column="12" selection-start-line="582" selection-start-column="12" selection-end-line="582" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.870968">
-          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CatalogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.548387">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/catalog/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.032258">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/js/jquery-filestyle.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/admin-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.354838">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.741936">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/jquery-filestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.096774">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/product/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.32258">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/cart/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2903225">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/AdminBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-product/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/AdminUserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="59" selection-start-line="224" selection-start-column="59" selection-end-line="224" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/images/home/product2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/images/home/product1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-product/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/images/home/no-image.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/AdminProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2580645">
-          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-order/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-order/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-order/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/AdminOrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.225806">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-product/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="64" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.516129">
-          <caret line="242" column="8" selection-start-line="242" selection-start-column="8" selection-end-line="253" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-product/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.870968">
-          <caret line="52" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.806452">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="18" selection-end-column="35" />
+        <state vertical-scroll-proportion="-6.225806">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/FunctionLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.290323">
-          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        <state vertical-scroll-proportion="-79.48387">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-order/create.php">
+    <entry file="file://$PROJECT_DIR$/views/admin-blog/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/js/my-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/my-style.css">
+    <entry file="file://$PROJECT_DIR$/views/admin-blog/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="1" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-user/index.php">
+    <entry file="file://$PROJECT_DIR$/components/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-user/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-category/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-category/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-category/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="13" />
+        <state vertical-scroll-proportion="23.580645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AdminCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="81" />
+        <state vertical-scroll-proportion="-61.032257">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Category.php">
+    <entry file="file://$PROJECT_DIR$/controllers/AdminUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82234186">
-          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.612904">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.967742">
+          <caret line="34" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/my-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.354838">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-category/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.258064">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="48" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-product/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.935484">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="80" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="50.387096">
+          <caret line="145" column="54" selection-start-line="145" selection-start-column="54" selection-end-line="145" selection-end-column="54" />
           <folding>
-            <marker date="1452271478160" expanded="true" signature="1159:1179" placeholder="DELETE FROM " />
-            <marker date="1452271478160" expanded="true" signature="2045:2066" placeholder="INSERT INTO category... " />
-            <marker date="1452271478160" expanded="true" signature="3290:3309" placeholder="UPDATE categ... " />
+            <marker date="1452366424878" expanded="true" signature="6020:6039" placeholder="DELETE FROM " />
+            <marker date="1452366424878" expanded="true" signature="6496:6516" placeholder="INSERT INTO product... " />
+            <marker date="1452366424878" expanded="true" signature="8104:8122" placeholder="UPDATE produ... " />
+            <marker date="1452366424878" expanded="true" signature="8671:8689" placeholder="UPDATE produ... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/blog1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/blog2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/cart/three.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/cart/two.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/new.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/rating.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/share.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/similar2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/advertisement.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/shop/product12.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/similar3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/product-details/similar1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/cart/one.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/socials.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/no-image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/404/404.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/man-four.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/man-one.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/man-three.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/man-two.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/images/blog/blog3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.32258">
+          <caret line="80" column="71" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
+          <folding>
+            <marker date="1452450018179" expanded="true" signature="1458:1475" placeholder="INSERT INTO blog... " />
+            <marker date="1452450018179" expanded="true" signature="2079:2094" placeholder="UPDATE blog " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AdminBlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.838709">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-blog/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23687753">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

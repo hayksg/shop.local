@@ -56,7 +56,7 @@
                     <?php endforeach; ?>
                 </div><!--features_items-->
                 <div class="recommended_items hidden-xs"><!--recommended_items-->
-                    <h2 class="title text-center">Рекомендуемые товары</h2>
+                    <h2 class="title text-center my-recommended-items">Рекомендуемые товары</h2>
                     <div class="carousel slide">
                         <div class="cycle-slideshow"
                              data-cycle-fx=carousel

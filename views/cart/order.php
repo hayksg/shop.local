@@ -58,9 +58,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="my-pagination">
-                    <?php if (isset($pagination)) {echo $pagination->get();}?>
-                </div>
             </div>
         </div>
     </div>

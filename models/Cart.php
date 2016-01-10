@@ -56,7 +56,7 @@ class Cart
         if (is_array($products) && !empty($products)) {
             $sessionProducts = Cart::getSessionProducts();
 
-            if (is_array($products) && !empty($products)) {
+            if (is_array($sessionProducts) && !empty($sessionProducts)) {
                 $totalPrice = 0;
                 foreach ($products as $product) {
                     $totalPrice += $product['price'] * $sessionProducts[$product['id']];

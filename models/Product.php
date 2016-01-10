@@ -143,7 +143,7 @@ class Product
 
             $db = DB::getConnection();
             if ($db) {
-                $sql  = "SELECT id, name, code, price ";
+                $sql  = "SELECT id, name, code, price, status ";
                 $sql .= "FROM product ";
                 $sql .= "WHERE id ";
                 $sql .= "IN({$productsIdsString}) ";

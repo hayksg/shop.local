@@ -141,8 +141,53 @@ i{
     width: 100px;
 }
 
-.my-button-delete-category{
+.my-button-delete{
     background: none;
     border: none;
     color: #428bca;
+}
+
+.my-table-admin-orders tr th+th+th+th{
+    width: 250px;
+}
+
+.my-table-admin-orders tr th+th+th+th+th{
+    width: 100px;
+}
+
+.my-hr{
+    background: #e3e3e3;
+    border: none;
+    height: 10px;
+}
+
+.my-about-blog p{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.my-blog-container{
+    padding: 0 15px;
+    height: 200px;
+}
+
+.my-date-color{
+    color: #b2b2b2 !important;
+}
+
+.my-blog-container img{
+    margin: 0 30px 0 0;
+}
+
+h2.title.my-recommended-items::before {
+    margin-left: -158px;
+    width: 317px;
+}
+
+.my-blog-h3{
+    margin: -5px 0 5px;
+}
+
+.my-table-blog tr th+th+th+th{
+    width: 120px;
 }

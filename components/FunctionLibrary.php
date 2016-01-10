@@ -101,4 +101,82 @@ class FunctionLibrary
             return $result;
         }
     }
+
+    public static function showUserOrder($order)
+    {
+        if (isset($order) && !empty($order)) {
+            $productsColumn = $order['products'];
+            if ($productsColumn) {
+                $idsAndQuantity = json_decode($productsColumn, true);
+                $idsString = array_keys($idsAndQuantity);
+                $products = Product::getProductsByIds($idsString);
+
+                $totalPrice = Order::getTotalOrdersPrice($products, $idsAndQuantity);
+                $totalQuantity = Order::countProductsInOrder($idsAndQuantity);
+                $date = $order['date'];
+                $status = $order['status'];
+                return array($products, $totalPrice, $totalQuantity, $idsAndQuantity, $date, $status);
+            }
+        }
+    }
+
+    public static function dateFormat($dt, $hms = true)
+    {
+        $date = new DateTime($dt);
+        if ($hms) {
+            $dateString =  $date->format('j,F,Y,H,i,s');
+        } else {
+            $dateString =  $date->format('j,F,Y');
+        }
+
+        $dateArray = explode(',', $dateString);
+
+        switch ($dateArray[1]) {
+            case 'January':
+                $result = 'Января';
+                break;
+            case 'February':
+                $result = 'Февраля';
+                break;
+            case 'March':
+                $result = 'Марта';
+                break;
+            case 'April':
+                $result = 'Апреля';
+                break;
+            case 'May':
+                $result = 'Мая';
+                break;
+            case 'June':
+                $result = 'Июня';
+                break;
+            case 'July':
+                $result = 'Июля';
+                break;
+            case 'August':
+                $result = 'Августа';
+                break;
+            case 'September':
+                $result = 'Сентября';
+                break;
+            case 'October':
+                $result = 'Октября';
+                break;
+            case 'November':
+                $result = 'Ноября';
+                break;
+            case 'December':
+                $result = 'Декабря';
+                break;
+        }
+        if ($hms) {
+            return $dateArray[0] . ' ' . $result . ' ' . $dateArray[2] . ' ' .
+                                                         $dateArray[3] . ':' .
+                                                         $dateArray[4] . ':' .
+                                                         $dateArray[5];
+        } else {
+            return $dateArray[0] . ' ' . $result . ' ' . $dateArray[2];
+        }
+
+    }
 }
