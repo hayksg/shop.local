@@ -42,7 +42,7 @@
                                     <i class="fa fa-calendar"></i>
                                     <?= FunctionLibrary::dateFormat($blog['dt'], false); ?>
                                 </p>
-                                <p><?= htmlentities($blog['description']); ?></p>
+                                <p class="my-blog-description"><?= $blog['description']; ?></p>
                                 <p>
                                     <a href="/blog/view/<?= (int)$blog['id']; ?>" class="my-orange-color">
                                         Читать дальше &gt;

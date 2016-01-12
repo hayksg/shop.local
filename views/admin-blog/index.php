@@ -42,7 +42,7 @@
                                     <td><?= (int)$blog['id']; ?></td>
                                     <td class="my-date"><?= FunctionLibrary::dateFormat(htmlentities($blog['dt'])); ?></td>
                                     <td><?= htmlentities($blog['title']); ?></td>
-                                    <td><?= htmlentities($blog['description']); ?></td>
+                                    <td><?= $blog['description']; ?></td>
                                     <td>
                                         <a href="/admin/blog/update/<?= (int)$blog['id']; ?>">
                                             <i class="fa fa-edit"></i>

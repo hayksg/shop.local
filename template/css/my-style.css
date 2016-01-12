@@ -188,10 +188,15 @@ h2.title.my-recommended-items::before {
     margin: -5px 0 5px;
 }
 
-.my-table-blog tr th+th+th+th{
+.my-table-blog tr th+th+th+th+th{
     width: 120px;
 }
 
 .my-table-blog tr .my-date{
     width: 182px;
+}
+
+.my-blog-description{
+    height: 50px !important;
+    overflow: auto;
 }

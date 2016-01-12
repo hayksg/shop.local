@@ -42,7 +42,7 @@
                                 </div>
                                 <br>
                                 <br>
-                                <div><?= htmlentities($blog['content']); ?></div>
+                                <div><?= $blog['content']; ?></div>
                             </div>
                         </div>
                         <?php endif; ?>

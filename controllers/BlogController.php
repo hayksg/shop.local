@@ -28,6 +28,8 @@ class BlogController
         $blog = Blog::getBlogById($id);
         if (!$blog) {$blog = array();}
 
+        if ($blog['id'] != $id) {FunctionLibrary::redirectTo('/blog');}
+
         require_once(ROOT . '/views/blog/view.php');
         return true;
     }

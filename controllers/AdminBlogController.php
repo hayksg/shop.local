@@ -24,8 +24,8 @@ class AdminBlogController extends AdminBase
 
         if (isset($_POST['submit'])) {
             $title       = FunctionLibrary::clearStr($_POST['title']);
-            $description = FunctionLibrary::clearStr($_POST['description']);
-            $content     = FunctionLibrary::clearStr($_POST['content']);
+            $description = nl2br(FunctionLibrary::clearStr($_POST['description']));
+            $content     = nl2br(FunctionLibrary::clearStr($_POST['content']));
 
             if (!User::checkName($title)) {
                 $errors[] = 'Заглавие не может быть пустым.';
@@ -78,8 +78,8 @@ class AdminBlogController extends AdminBase
 
         if (isset($_POST['submit'])) {
             $title       = FunctionLibrary::clearStr($_POST['title']);
-            $description = FunctionLibrary::clearStr($_POST['description']);
-            $content     = FunctionLibrary::clearStr($_POST['content']);
+            $description = nl2br(FunctionLibrary::clearStr($_POST['description']));
+            $content     = nl2br(FunctionLibrary::clearStr($_POST['content']));
 
             if (!User::checkName($title)) {
                 $errors[] = 'Заглавие не может быть пустым.';
