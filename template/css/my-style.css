@@ -191,3 +191,7 @@ h2.title.my-recommended-items::before {
 .my-table-blog tr th+th+th+th{
     width: 120px;
 }
+
+.my-table-blog tr .my-date{
+    width: 182px;
+}

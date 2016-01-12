@@ -50,6 +50,7 @@ return array(
     'admin' => 'admin/index', // actionIndex in AdminController
     /* Blog */
     'blog/view/([0-9]+)' => 'blog/view/$1', // actionView in BlogController
+    'blog/page-([0-9]+)' => 'blog/index/$1', // actionIndex in BlogController
     'blog' => 'blog/index', // actionIndex in BlogController
     /* Главная страница */
     'contacts' => 'site/contact', // actionContact in SiteController

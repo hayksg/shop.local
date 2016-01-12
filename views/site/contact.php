@@ -30,7 +30,10 @@
                             <h4 class="my-orange-color text-center">Письма отправлено!</h4>
                         <?php else : ?>
                             <div class="signup-form">
-                                <h5 class="my-grey-color">Для того чтобы отправить нам сообщение заполните пожалуйста форму</h5><br>
+                                <h5 class="my-grey-color">Наш телефон:&nbsp;&nbsp;
+                                    <i class="my-orange-color">+38 093 000 11 22</i>
+                                </h5>
+                                <h5 class="my-grey-color">Для того чтобы отправить нам сообщение заполните пожалуйста форму:</h5><br>
                                 <?php if (!empty($errors)) : ?>
                                     <ul class="my-ul">
                                         <?php foreach ($errors as $error) : ?>

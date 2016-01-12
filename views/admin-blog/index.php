@@ -9,6 +9,15 @@
                         <li class="active">Управление блогом</li>
                     </ul>
                     <br>
+                    <?php if (empty($blogs)) : ?>
+                    <h4>В блоге пусто.</h4>
+                    <br>
+                    <div>
+                        <a href="/admin/blog/create" class="btn btn-success">
+                            <i class="fa fa-plus"></i> &nbsp;Добавить запись
+                        </a>
+                    </div>
+                    <?php else : ?>
                     <div>
                         <a href="/admin/blog/create" class="btn btn-success">
                             <i class="fa fa-plus"></i> &nbsp;Добавить блог
@@ -22,6 +31,7 @@
                         <table class="table table-responsive table-bordered table-hover table-striped my-table-blog">
                             <tr>
                                 <th>ID</th>
+                                <th>Дата</th>
                                 <th>Заглавие блога</th>
                                 <th>Краткое описание</th>
                                 <th>Редактировать</th>
@@ -30,6 +40,7 @@
                             <?php foreach ($blogs as $blog) : ?>
                                 <tr>
                                     <td><?= (int)$blog['id']; ?></td>
+                                    <td class="my-date"><?= FunctionLibrary::dateFormat(htmlentities($blog['dt'])); ?></td>
                                     <td><?= htmlentities($blog['title']); ?></td>
                                     <td><?= htmlentities($blog['description']); ?></td>
                                     <td>
@@ -52,6 +63,7 @@
                             <?php endforeach; ?>
                         </table>
                     </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
